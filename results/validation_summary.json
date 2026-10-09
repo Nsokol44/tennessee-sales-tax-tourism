@@ -1,0 +1,74 @@
+{
+  "source": "TDTD (2026) 2025 Economic Impact of Travel on Tennessee (Tourism Economics), 95 counties x 2024-2025",
+  "levels_2024": {
+    "pearson_r": 0.9130929605953978,
+    "spearman_rho": 0.8727043673012318,
+    "n": 95
+  },
+  "levels_2025": {
+    "pearson_r": 0.9122349760699245,
+    "spearman_rho": 0.8688969764837626,
+    "n": 95
+  },
+  "levels_pooled": {
+    "pearson_r": 0.9125141337026239,
+    "spearman_rho": 0.8700800867789019,
+    "n": 190
+  },
+  "log_log_regression": [
+    {
+      "sample": "2024",
+      "n": 95,
+      "intercept": -0.7279500169820734,
+      "elasticity": 1.1088512243633708,
+      "se": 0.05134667503033978,
+      "r_squared": 0.8337387546888693
+    },
+    {
+      "sample": "2025",
+      "n": 95,
+      "intercept": -1.0605588281160792,
+      "elasticity": 1.125851190250822,
+      "se": 0.05242810541797221,
+      "r_squared": 0.8321726515652963
+    },
+    {
+      "sample": "pooled (clustered SE)",
+      "n": 190,
+      "intercept": -0.8860204604616948,
+      "elasticity": 1.1168677603780546,
+      "se": 0.06008931040555175,
+      "r_squared": 0.8326820442070498
+    }
+  ],
+  "old_n3_bridge_for_comparison": {
+    "elasticity": 0.9728,
+    "r_squared": 0.8677,
+    "n": 3,
+    "note": "Production model's three-point scale check (Knox 2025, Davidson 2024, TN statewide 2023). Superseded by the n=190 estimates above; retained for comparison."
+  },
+  "growth_2024_2025": {
+    "pearson_r": 0.3722893212091917,
+    "spearman_rho": 0.3305431131019037,
+    "n": 95,
+    "pearson_p": 0.00020315058661891545,
+    "spearman_p": 0.0010695709542430016
+  },
+  "spending_per_tax_dollar": {
+    "2024": {
+      "median": 2.945294617100121,
+      "q1": 1.877982135280518,
+      "q3": 4.390852540976866
+    },
+    "2025": {
+      "median": 2.659950059939509,
+      "q1": 1.79621498775488,
+      "q3": 4.44546282092187
+    }
+  },
+  "county_fe_vs_spending_2025": {
+    "pearson_r": 0.9112733171938507,
+    "spearman_rho": 0.8648656215005599,
+    "n": 95
+  }
+}

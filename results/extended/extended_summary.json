@@ -1,0 +1,108 @@
+{
+  "A": {
+    "statewide_visitor_local_taxes_over_collections_2025": 0.2861689363134173,
+    "county_share_quantiles": {
+      "0.1": 0.047,
+      "0.25": 0.077,
+      "0.5": 0.114,
+      "0.75": 0.173,
+      "0.9": 0.255
+    },
+    "n_counties_share_gt_0.4": 3,
+    "top5": [
+      {
+        "county_name": "Sevier",
+        "visitor_local_share_of_collections": 0.962
+      },
+      {
+        "county_name": "Van Buren",
+        "visitor_local_share_of_collections": 0.832
+      },
+      {
+        "county_name": "Davidson",
+        "visitor_local_share_of_collections": 0.634
+      },
+      {
+        "county_name": "Pickett",
+        "visitor_local_share_of_collections": 0.327
+      },
+      {
+        "county_name": "Hamilton",
+        "visitor_local_share_of_collections": 0.312
+      }
+    ],
+    "eff_local_rate_mean_sd_cv": [
+      0.04185604800144453,
+      0.005691528456034469,
+      0.13597863935548918
+    ],
+    "eff_state_rate_mean_sd_cv": [
+      0.054500975422257576,
+      0.007738641511907656,
+      0.14199088093288112
+    ],
+    "corr_log_visitor_local_tax_vs_log_spending": 0.9961763100682999
+  },
+  "B": {
+    "vif_log_components": {
+      "spending_lodging_usd": 15.60205628116371,
+      "spending_food_beverages_usd": 46.05402344840299,
+      "spending_retail_usd": 32.587845902248716,
+      "spending_recreation_usd": 17.885153055855493,
+      "spending_transportation_usd": 13.068010356136178
+    }
+  },
+  "C": {
+    "n_flagged_step_gt_10pct": 28,
+    "flagged": [
+      "Bledsoe",
+      "Campbell",
+      "Cannon",
+      "Chester",
+      "Crockett",
+      "DeKalb",
+      "Decatur",
+      "Hancock",
+      "Hardeman",
+      "Haywood",
+      "Hickman",
+      "Jackson",
+      "Johnson",
+      "Lake",
+      "Lewis",
+      "Maury",
+      "Meigs",
+      "Moore",
+      "Morgan",
+      "Pickett",
+      "Polk",
+      "Stewart",
+      "Sumner",
+      "Trousdale",
+      "Unicoi",
+      "Union",
+      "Van Buren",
+      "Wilson"
+    ],
+    "growth_local_vs_spending_all": {
+      "pearson": 0.3722893212091916,
+      "spearman": 0.3305431131019037,
+      "n": 95
+    },
+    "growth_local_vs_spending_unflagged": {
+      "pearson": 0.19743940604991217,
+      "spearman": 0.2068002234815229,
+      "n": 67
+    },
+    "growth_state_tax_vs_spending_all": {
+      "pearson": 0.22594742565833728,
+      "spearman": 0.22217245240761477,
+      "n": 95
+    },
+    "growth_state_tax_vs_spending_unflagged": {
+      "pearson": 0.2826021109852169,
+      "spearman": 0.33063293159869106,
+      "n": 67
+    }
+  }
+}

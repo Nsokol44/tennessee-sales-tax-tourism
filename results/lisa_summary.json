@@ -1,0 +1,57 @@
+{
+  "2024": {
+    "n_counties": 95,
+    "class_counts": {
+      "Not significant": 80,
+      "HH": 10,
+      "LL": 4,
+      "LH": 1
+    },
+    "hh_counties": [
+      "Blount",
+      "Cheatham",
+      "Cocke",
+      "Davidson",
+      "Jefferson",
+      "Loudon",
+      "Robertson",
+      "Rutherford",
+      "Sevier",
+      "Williamson"
+    ],
+    "ll_counties": [
+      "Benton",
+      "Claiborne",
+      "Clay",
+      "Overton"
+    ]
+  },
+  "2025": {
+    "n_counties": 95,
+    "class_counts": {
+      "Not significant": 78,
+      "HH": 10,
+      "LL": 5,
+      "LH": 2
+    },
+    "hh_counties": [
+      "Blount",
+      "Cheatham",
+      "Cocke",
+      "Davidson",
+      "Jefferson",
+      "Loudon",
+      "Robertson",
+      "Rutherford",
+      "Sevier",
+      "Williamson"
+    ],
+    "ll_counties": [
+      "Benton",
+      "Claiborne",
+      "Clay",
+      "Overton",
+      "Pickett"
+    ]
+  }
+}

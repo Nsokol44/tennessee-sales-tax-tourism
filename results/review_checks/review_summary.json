@@ -1,0 +1,314 @@
+{
+  "A_se_inflation_vs_paper": {
+    "county-clustered (paper)": {
+      "trend": 1.0,
+      "gas": 1.0,
+      "sent": 1.0
+    },
+    "month-clustered": {
+      "trend": 1.4777582363577997,
+      "gas": 2.356809159751431,
+      "sent": 5.474595332414866
+    },
+    "two-way clustered": {
+      "trend": 1.7478101185074228,
+      "gas": 2.505292413881364,
+      "sent": 5.4766054894583664
+    },
+    "Driscoll-Kraay (12 lags)": {
+      "trend": 1.6647933400566686,
+      "gas": 2.412307608286308,
+      "sent": 5.020481417428433
+    }
+  },
+  "C_validation": {
+    "r_2024": {
+      "local_vs_spending": 0.9130929605953979,
+      "state_vs_spending": 0.9151718855047113,
+      "local_vs_state": 0.9947028391991006
+    },
+    "r_2025": {
+      "local_vs_spending": 0.9122349760699243,
+      "state_vs_spending": 0.9154549962557056,
+      "local_vs_state": 0.9948087197238366
+    },
+    "local_adds_beyond_state_2025": {
+      "coef": 0.182625018640175,
+      "se": 0.5084733313076835
+    },
+    "growth": {
+      "local_vs_spending": {
+        "pearson": 0.3722893212091916,
+        "spearman": 0.3305431131019037
+      },
+      "state_tax_vs_spending": {
+        "pearson": 0.22594742565833728,
+        "spearman": 0.22217245240761477
+      },
+      "local_vs_state": {
+        "pearson": 0.5382748519907219,
+        "spearman": 0.6569988801791714
+      },
+      "local_vs_spending_trimmed_5_95_on_local": {
+        "pearson": 0.190840030404497,
+        "spearman": 0.17289427398866525
+      },
+      "n_trimmed": 85,
+      "local_vs_spending_excl_big_local_state_gap": {
+        "pearson": 0.15668685876021674,
+        "spearman": 0.18169484661334415
+      },
+      "n_excl_gap": 84,
+      "n_counties_gap_gt_8pp": 11,
+      "largest_gaps": [
+        {
+          "county": "Johnson",
+          "loc": 43.0,
+          "sta": 6.3,
+          "spend": 6.0
+        },
+        {
+          "county": "Trousdale",
+          "loc": 36.4,
+          "sta": 5.6,
+          "spend": 14.6
+        },
+        {
+          "county": "Cannon",
+          "loc": 24.5,
+          "sta": -5.2,
+          "spend": 7.1
+        },
+        {
+          "county": "Haywood",
+          "loc": -30.8,
+          "sta": -13.6,
+          "spend": -9.6
+        },
+        {
+          "county": "Bledsoe",
+          "loc": 12.3,
+          "sta": -0.2,
+          "spend": 13.3
+        },
+        {
+          "county": "Morgan",
+          "loc": 5.5,
+          "sta": -6.9,
+          "spend": 6.5
+        }
+      ]
+    }
+  },
+  "D_spatial": {
+    "moran_collections": {
+      "I": 0.18231922391808697,
+      "p_norm": 0.0026921444360787123,
+      "p_perm": 0.0023
+    },
+    "moran_spending": {
+      "I": 0.16861117399894798,
+      "p_norm": 0.005308735251854597,
+      "p_perm": 0.0049
+    },
+    "moran_residual": {
+      "I": 0.03465665681617967,
+      "p_norm": 0.4811684204353862,
+      "p_perm": 0.2332
+    },
+    "lisa_class_counts_p05": [
+      {
+        "year": 2024,
+        "series": "collections",
+        "HH": 10,
+        "HL": 1,
+        "LH": 3,
+        "LL": 4
+      },
+      {
+        "year": 2024,
+        "series": "spending",
+        "HH": 10,
+        "HL": 2,
+        "LH": 1,
+        "LL": 4
+      },
+      {
+        "year": 2025,
+        "series": "collections",
+        "HH": 10,
+        "HL": 0,
+        "LH": 3,
+        "LL": 4
+      },
+      {
+        "year": 2025,
+        "series": "spending",
+        "HH": 10,
+        "HL": 2,
+        "LH": 1,
+        "LL": 4
+      }
+    ],
+    "lisa_HH_2024": {
+      "collections": [
+        "Blount",
+        "Cheatham",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ],
+      "spending": [
+        "Blount",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Knox",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ],
+      "overlap": [
+        "Blount",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ]
+    },
+    "lisa_HH_2025": {
+      "collections": [
+        "Blount",
+        "Cheatham",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ],
+      "spending": [
+        "Blount",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Knox",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ],
+      "overlap": [
+        "Blount",
+        "Cocke",
+        "Davidson",
+        "Jefferson",
+        "Loudon",
+        "Robertson",
+        "Rutherford",
+        "Sevier",
+        "Williamson"
+      ]
+    },
+    "lisa_LL_2024": {
+      "collections": [
+        "Benton",
+        "Claiborne",
+        "Clay",
+        "Overton"
+      ],
+      "spending": [
+        "Benton",
+        "Clay",
+        "Perry",
+        "Pickett"
+      ],
+      "overlap": [
+        "Benton",
+        "Clay"
+      ]
+    },
+    "lisa_LL_2025": {
+      "collections": [
+        "Benton",
+        "Claiborne",
+        "Clay",
+        "Overton"
+      ],
+      "spending": [
+        "Benton",
+        "Clay",
+        "Perry",
+        "Pickett"
+      ],
+      "overlap": [
+        "Benton",
+        "Clay"
+      ]
+    },
+    "lisa_n_fdr": {
+      "2024_collections": [
+        "Cheatham",
+        "Davidson"
+      ],
+      "2024_spending": [],
+      "2025_collections": [
+        "Cheatham",
+        "Davidson"
+      ],
+      "2025_spending": []
+    },
+    "edge": {
+      "n_counties_on_state_border": 42,
+      "queen_neighbors": {
+        "Shelby": 2,
+        "Davidson": 6,
+        "Knox": 8,
+        "Hamilton": 6
+      }
+    },
+    "residual_extremes": {
+      "spending_above_collections": {
+        "Van Buren": 2.36,
+        "Sevier": 1.68,
+        "Moore": 1.35,
+        "Pickett": 1.32,
+        "Davidson": 1.22,
+        "Union": 1.16
+      },
+      "spending_below_collections": {
+        "Cannon": -1.74,
+        "Hawkins": -1.7,
+        "Fayette": -1.6,
+        "Lewis": -1.59,
+        "Tipton": -1.14
+      }
+    }
+  },
+  "E_trough_month": {
+    "all_2020_2026 (paper)": 3,
+    "2021_2026": 3,
+    "2022_2026": 2
+  },
+  "F_inflation_share": {
+    "nominal_growth_pct": 55.97237090644165,
+    "real_growth_pct": 25.40099903204713,
+    "implied_price_rise_pct": 24.378890208507652,
+    "share_in_percentage_points": 0.435552216454386,
+    "share_in_logs": 0.4907941937295293
+  }
+}

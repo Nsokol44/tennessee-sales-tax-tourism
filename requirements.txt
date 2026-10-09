@@ -1,0 +1,11 @@
+esda==2.10.0
+geopandas==1.2.0
+libpysal==4.15.0
+linearmodels==7.0
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+spreg==1.9.1
+statsmodels==0.15.0

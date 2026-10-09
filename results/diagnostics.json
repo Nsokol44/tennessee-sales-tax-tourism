@@ -1,0 +1,52 @@
+{
+  "panel_rows": 7599,
+  "counties": 95,
+  "months": "2020-01-01..2026-08-01",
+  "balanced_panel": true,
+  "negative_adjustment_rows_excluded_from_logs": [
+    {
+      "fips": "47085",
+      "county_name": "Humphreys",
+      "ym": "2021-11-01",
+      "local_sales_tax": -11828.96
+    }
+  ],
+  "pooled_ols_rsquared": 0.9948224673630074,
+  "pooled_ols_trend_per_month_pct": 0.5801211679824281,
+  "pooled_ols_gas_semi_elasticity": 0.06210788219370534,
+  "pooled_ols_sentiment_semi_elasticity": 7.859652255073775e-05,
+  "panel_fe_r2_two_way": 0.9959959660808446,
+  "panel_fe_r2_county_effects_only": 0.9802510545665591,
+  "panelols_county_effects_corr_check": 0.9999999970515767,
+  "morans_I_log_tax_2025": 0.18231922391808697,
+  "morans_I_p_norm": 0.0026921444360787123,
+  "morans_I_expected": -0.010638297872340425,
+  "spatial_lag_rho": 0.36913455367676845,
+  "spatial_lag_rho_se": 0.12959042821182745,
+  "spatial_error_lambda": 0.36913469771180135,
+  "spatial_error_lambda_se": 0.1295904124007217,
+  "spatial_note": "Intercept-only design: lag and error parametrizations coincide (row-standardized W gives W*1 = 1), so rho == lambda. Reported as a single spatial-dependence estimate; the design does not distinguish outcome spillovers from correlated unobservables.",
+  "cv_train": "2020-2024",
+  "cv_holdout": "2025 (12 months x 95 counties), conditional on realized 2025 gas price + sentiment",
+  "cv_full_spec": {
+    "rmse_usd": 845821.7242369445,
+    "mae_usd": 264046.29075454007,
+    "mape_pct": 7.3725604966983385
+  },
+  "cv_full_spec_smearing_corrected": {
+    "rmse_usd": 881200.1011389684,
+    "mae_usd": 276299.8417551629,
+    "mape_pct": 7.61222509010697
+  },
+  "smearing_factor": 1.0053233912435027,
+  "cv_baseline_no_trend_no_macro": {
+    "rmse_usd": 1769137.8807434742,
+    "mae_usd": 699206.6297765749,
+    "mape_pct": 18.912646926957883
+  },
+  "cv_baseline_seasonal_naive": {
+    "rmse_usd": 472238.4840844918,
+    "mae_usd": 200063.4566666667,
+    "mape_pct": 7.448071794588743
+  }
+}

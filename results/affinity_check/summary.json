@@ -1,0 +1,251 @@
+{
+ "n_counties": 53,
+ "n_county_months": 4187,
+ "window": [
+  "2020-01-01",
+  "2026-07-01"
+ ],
+ "uncovered_counties": [
+  "Benton",
+  "Bledsoe",
+  "Cannon",
+  "Carroll",
+  "Cheatham",
+  "Chester",
+  "Clay",
+  "Crockett",
+  "DeKalb",
+  "Decatur",
+  "Dyer",
+  "Fentress",
+  "Gibson",
+  "Giles",
+  "Grundy",
+  "Hardeman",
+  "Hardin",
+  "Henderson",
+  "Jackson",
+  "Lake",
+  "Lauderdale",
+  "Lawrence",
+  "Lewis",
+  "Lincoln",
+  "Macon",
+  "Marion",
+  "Marshall",
+  "McNairy",
+  "Montgomery",
+  "Moore",
+  "Overton",
+  "Perry",
+  "Pickett",
+  "Polk",
+  "Scott",
+  "Sequatchie",
+  "Smith",
+  "Trousdale",
+  "Van Buren",
+  "Wayne",
+  "Weakley",
+  "White"
+ ],
+ "A_fe": [
+  {
+   "window": "full",
+   "outcome": "ln_local",
+   "card_elasticity": -0.06363634810353413,
+   "se_cluster_county": 0.08157078637280175,
+   "p": 0.43531053186380664,
+   "r2": 0.9962154787321162,
+   "n": 4186
+  },
+  {
+   "window": "full",
+   "outcome": "ln_state",
+   "card_elasticity": 0.001411688235871414,
+   "se_cluster_county": 0.04937419447721349,
+   "p": 0.9771902951472704,
+   "r2": 0.997517252555967,
+   "n": 4186
+  },
+  {
+   "window": "post2021",
+   "outcome": "ln_local",
+   "card_elasticity": -0.11570733404270234,
+   "se_cluster_county": 0.10104315101978313,
+   "p": 0.2521561685538486,
+   "r2": 0.996747526292526,
+   "n": 2915
+  },
+  {
+   "window": "post2021",
+   "outcome": "ln_state",
+   "card_elasticity": -0.024138452121073517,
+   "se_cluster_county": 0.06078427005387394,
+   "p": 0.691281364461243,
+   "r2": 0.9979888191345261,
+   "n": 2915
+  }
+ ],
+ "B_growth": [
+  {
+   "window": "full",
+   "pair": "local YoY vs card YoY",
+   "n": 3549,
+   "pearson": 0.23670057942224226,
+   "spearman": 0.2573279494813192
+  },
+  {
+   "window": "full",
+   "pair": "local YoY vs card YoY (card leads 1m)",
+   "n": 3496,
+   "pearson": 0.28248837844173075,
+   "spearman": 0.30233612403533416
+  },
+  {
+   "window": "full",
+   "pair": "state YoY vs card YoY",
+   "n": 3549,
+   "pearson": 0.2456615871316197,
+   "spearman": 0.20658667724025062
+  },
+  {
+   "window": "full",
+   "pair": "state YoY vs card YoY (card leads 1m)",
+   "n": 3496,
+   "pearson": 0.3411689913930141,
+   "spearman": 0.30092494554699867
+  },
+  {
+   "window": "full",
+   "pair": "local MoM vs card MoM (SA)",
+   "n": 4132,
+   "pearson": -0.17593191122805035,
+   "spearman": -0.2152880441744539
+  },
+  {
+   "window": "full",
+   "pair": "local MoM vs card MoM (card leads 1m)",
+   "n": 4079,
+   "pearson": 0.47508026074809595,
+   "spearman": 0.47081280761807465
+  },
+  {
+   "window": "full",
+   "pair": "state MoM vs card MoM (SA)",
+   "n": 4132,
+   "pearson": -0.15939756483271383,
+   "spearman": -0.1993095303150677
+  },
+  {
+   "window": "full",
+   "pair": "state MoM vs card MoM (card leads 1m)",
+   "n": 4079,
+   "pearson": 0.4543377961731475,
+   "spearman": 0.4273246449612864
+  },
+  {
+   "window": "post2021",
+   "pair": "local YoY vs card YoY",
+   "n": 2914,
+   "pearson": 0.015960039057935266,
+   "spearman": 0.06401419439632171
+  },
+  {
+   "window": "post2021",
+   "pair": "local YoY vs card YoY (card leads 1m)",
+   "n": 2914,
+   "pearson": 0.061029324445047904,
+   "spearman": 0.12738753419787174
+  },
+  {
+   "window": "post2021",
+   "pair": "state YoY vs card YoY",
+   "n": 2914,
+   "pearson": 0.04897677524403921,
+   "spearman": 0.07200661812783542
+  },
+  {
+   "window": "post2021",
+   "pair": "state YoY vs card YoY (card leads 1m)",
+   "n": 2914,
+   "pearson": 0.12928424955378562,
+   "spearman": 0.17206404651647528
+  },
+  {
+   "window": "post2021",
+   "pair": "local MoM vs card MoM (SA)",
+   "n": 2915,
+   "pearson": -0.25653955058102845,
+   "spearman": -0.31701898944004303
+  },
+  {
+   "window": "post2021",
+   "pair": "local MoM vs card MoM (card leads 1m)",
+   "n": 2915,
+   "pearson": 0.48650511193579504,
+   "spearman": 0.4922343213645479
+  },
+  {
+   "window": "post2021",
+   "pair": "state MoM vs card MoM (SA)",
+   "n": 2915,
+   "pearson": -0.2094263006213116,
+   "spearman": -0.2657679030252362
+  },
+  {
+   "window": "post2021",
+   "pair": "state MoM vs card MoM (card leads 1m)",
+   "n": 2915,
+   "pearson": 0.45732328404171463,
+   "spearman": 0.46096164249243576
+  }
+ ],
+ "C_per_county": {
+  "median_r": 0.373533762447233,
+  "q25": 0.2490551690411781,
+  "q75": 0.45517891941199906,
+  "share_positive": 0.9433962264150944,
+  "named": {
+   "Davidson": 0.7348081118113132,
+   "Shelby": 0.4314030901603452,
+   "Knox": 0.47857917597996985,
+   "Sevier": 0.2721094543992359,
+   "Hamilton": 0.4737177585444951
+  },
+  "top": [
+   {
+    "county": "Davidson",
+    "n": 67,
+    "pearson_yoy": 0.7348081118113132
+   },
+   {
+    "county": "Rutherford",
+    "n": 67,
+    "pearson_yoy": 0.6901731035129489
+   },
+   {
+    "county": "Williamson",
+    "n": 67,
+    "pearson_yoy": 0.6770516771321007
+   }
+  ],
+  "bottom": [
+   {
+    "county": "Franklin",
+    "n": 67,
+    "pearson_yoy": -0.049946354201596294
+   },
+   {
+    "county": "Haywood",
+    "n": 67,
+    "pearson_yoy": -0.09727639559439731
+   },
+   {
+    "county": "Greene",
+    "n": 67,
+    "pearson_yoy": -0.20234601019977144
+   }
+  ]
+ }
+}

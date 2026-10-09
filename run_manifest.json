@@ -1,0 +1,39 @@
+{
+  "python": "3.12.3",
+  "requirements": "requirements.txt",
+  "headline_numbers": {
+    "levels_r_pooled": 0.9125141337026239,
+    "growth_r_raw": 0.3722893212091917,
+    "visitor_share_median_2025": 0.114,
+    "visitor_share_statewide_2025": 0.2861689363134173,
+    "benchmark_tax_log_r": 0.9961763100682999,
+    "rate_step_counties": 28,
+    "growth_r_excl_step_counties": 0.19743940604991217
+  },
+  "sha256": {
+    "data/panel.parquet": "cfcfbae8277e83f697697abff839c14c08974a57eef7fc9e559c6d39e1b7ab5e",
+    "results/extended/extended_summary.json": "cd72c131cb8bfbf07e4ade0e93a521e641a8423b6984c853bba0faea77a4fac3"
+  },
+  "expected_figure_outputs": [
+    "figures/fig1_statewide_series.png",
+    "figures/fig1_statewide_series.pdf",
+    "figures/fig2_choropleth_2025.png",
+    "figures/fig2_choropleth_2025.pdf",
+    "figures/fig3_lisa_2025_v2.png",
+    "figures/fig3_lisa_2025_v2.pdf",
+    "figures/fig4_validation_scatter_v2.png",
+    "figures/fig4_validation_scatter_v2.pdf",
+    "figures/fig5_seasonality.png",
+    "figures/fig5_seasonality.pdf",
+    "figures/fig6_residual_map.png",
+    "figures/fig6_residual_map.pdf",
+    "figures/fig7_visitor_share_map.png",
+    "figures/fig7_visitor_share_map.pdf",
+    "figures/fig8_growth_scatter.png",
+    "figures/fig8_growth_scatter.pdf",
+    "figures/fig9_growth_and_step_maps.png",
+    "figures/fig9_growth_and_step_maps.pdf",
+    "figures/fig10_forecast_origins.png",
+    "figures/fig10_forecast_origins.pdf"
+  ]
+}

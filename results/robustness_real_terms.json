@@ -1,0 +1,27 @@
+{
+  "cpi_base": "mean CPIAUCSL of 2026 months available (= 331.3); year-mean step deflator; Oct 2025 CPI missing in source (BLS shutdown gap), not interpolated",
+  "statewide_totals": {
+    "2020": {
+      "nominal_B": 2.9600397981699995,
+      "real_B_2026avg": 3.7882164654746235
+    },
+    "2025": {
+      "nominal_B": 4.616844252979999,
+      "real_B_2026avg": 4.750461293201683
+    }
+  },
+  "growth_2020_2025_pct": {
+    "nominal": 55.97237090644167,
+    "real": 25.40099903204713
+  },
+  "trend_pct_per_month": {
+    "real": 0.25228434568851377,
+    "real_se": 0.00018813949698667524,
+    "nominal_reference": 0.578
+  },
+  "validation_growth_real": {
+    "pearson_r": 0.3722893212091921,
+    "spearman_rho": 0.3305431131019037,
+    "n": 95
+  }
+}

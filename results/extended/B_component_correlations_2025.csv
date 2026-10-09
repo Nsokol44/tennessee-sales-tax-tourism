@@ -1,0 +1,9 @@
+series,corr_with_log_collections,corr_with_log_state_tax,n
+spending_lodging_usd,0.878,0.882,95
+spending_food_beverages_usd,0.903,0.91,95
+spending_retail_usd,0.887,0.891,95
+spending_recreation_usd,0.873,0.87,95
+spending_transportation_usd,0.92,0.924,95
+visitor_spending_usd,0.912,0.915,95
+labor_income_usd,0.921,0.924,95
+employment_jobs,0.915,0.92,95
