@@ -4,6 +4,8 @@ Nicholas J. Sokol, Department of Geography & Sustainability, University of Tenne
 
 This repository holds the data and code for a study of what monthly county local-option sales-tax collections in Tennessee can and cannot say about tourism. It uses a panel of 95 counties and 80 months (January 2020 to August 2026), compares collections with published county visitor spending for 2024 and 2025, and tests for spatial dependence.
 
+Preprint: Sokol, N. J. (2026). What sales-tax receipts can (and cannot) tell us about tourism: evidence from Tennessee's counties. SocArXiv. https://osf.io/preprints/socarxiv/q74pn_v1 (CC-BY 4.0).
+
 ## Contents
 
 - `code/` - numbered analysis scripts, `tn_fips.py` (county name to FIPS lookup) and `run_all.py`.
@@ -78,3 +80,7 @@ These come from the files in `results/`.
 | Bootstrap difference, LSDV 2021+ minus naive times statewide growth (pp, 95% CI) | -0.5 (-1.0 to 0.0); -0.6 (-1.6 to 0.3); +1.4 (0.6 to 2.2) |
 | Growth 2020 to 2025 | +56.0% nominal, +25.4% real |
 | Monthly check, Affinity card spending | month-on-month growth r = 0.48 with the card series leading one month; year-over-year r between 0.02 and 0.06 after 2021 |
+
+## License
+
+The code in this repository is released under the MIT License (see `LICENSE`).
