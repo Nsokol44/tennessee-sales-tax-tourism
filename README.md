@@ -4,7 +4,7 @@ Nicholas J. Sokol, Department of Geography & Sustainability, University of Tenne
 
 This repository holds the data and code for a study of what monthly county local-option sales-tax collections in Tennessee can and cannot say about tourism. It uses a panel of 95 counties and 80 months (January 2020 to August 2026), compares collections with published county visitor spending for 2024 and 2025, and tests for spatial dependence.
 
-Preprint: Sokol, N. J. (2026). What sales-tax receipts can (and cannot) tell us about tourism: evidence from Tennessee's counties. SocArXiv. https://osf.io/preprints/socarxiv/q74pn_v1 (CC-BY 4.0).
+Preprint: Sokol, N. J. (2026). What sales-tax receipts can (and cannot) tell us about tourism: evidence from Tennessee's counties. SocArXiv. https://doi.org/10.31235/osf.io/q74pn_v1 (CC-BY 4.0).
 
 ## Contents
 
